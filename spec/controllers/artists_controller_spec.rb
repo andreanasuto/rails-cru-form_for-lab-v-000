@@ -2,23 +2,9 @@ require 'rails_helper'
 
 RSpec.describe ArtistsController, type: :controller do
 
-  describe "GET #create" do
+  describe "GET #new" do
     it "returns http success" do
-      get :create
-      expect(response).to have_http_status(:success)
-    end
-  end
-
-  describe "GET #update" do
-    it "returns http success" do
-      get :update
-      expect(response).to have_http_status(:success)
-    end
-  end
-
-  describe "GET #show" do
-    it "returns http success" do
-      get :show
+      get :new
       expect(response).to have_http_status(:success)
     end
   end
