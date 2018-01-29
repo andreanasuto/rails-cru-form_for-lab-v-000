@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  get 'artist/create'
+
+  get 'artist/update'
+
+  get 'artist/show'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
