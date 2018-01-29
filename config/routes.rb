@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'artists/new'
+
   get 'genres/create'
 
   get 'genres/update'
